@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBookList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="contentStorage()">
+    <!-- <br><br>
+    <h3>Bookmarker</h3>
+    <br><br><br><br><br><br><br> -->
+    <form id="myform">
+    <div class="container" id="container">
+        <h2>MyBookList</h2><br>
+        <b>Title</b><br>
+        <input type="text" class="inputSite" id="inputSite" placeholder="Title Name" autocomplete="off"><br>
+        <b>Author</b><br>
+        <input type="text" class="inputURL" id="inputURL" placeholder="Author Name" autocomplete="off"><br>
+        <b>ISBN#</b><br>
+        <input type="text" class="isb" id="isb" placeholder="ISB Number" autocomplete="off"><br>
+        <button type="submit" class="submitButton" id="submitButton">Add Book</button>
+        <div class="title" style="width: 300px; height: 33px; margin-top: 2rem;font-size: 1.4rem;">
+            <span class="lft" style="text-align: left;">Title</span>
+            <span class="mdl" style="text-align: center;margin-left: 4.4rem;">Author</span>
+            <span class="rgt" style="text-align: right;margin-left: 4.2rem;">ISB#</span>
+        </div>
+        
+    </div>
+    </form>
+    <br><br>
+    <div class="storage" id="storage"></div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
